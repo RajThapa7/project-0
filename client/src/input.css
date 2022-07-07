@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .raj{
+        color: blue;
+        background-color: pink;
+    }
+}
+
+@layer utilities{
+    .raj{
+        color: pink;
+        background-color: blue;
+    }
+}
